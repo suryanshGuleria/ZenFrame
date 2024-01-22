@@ -14,6 +14,7 @@ import authRoutes from "./routes/auth.js";
 import userRoutes from "./routes/users.js";
 import postRoutes from "./routes/posts.js";
 import { register } from "./controllers/auth.js";
+// for one time useonly
 import User from "./models/User.js";
 import Post from "./models/Posts.js";
 import { users, posts } from "./data/index.js";
