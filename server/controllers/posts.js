@@ -17,6 +17,7 @@ export const createPost = async (req, res) => {
       likes: {},
       comments: [],
     });
+    console.log("reached in the createPost function");
     await newPost.save();
 
     const post = await Post.find();
